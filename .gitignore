@@ -1,0 +1,37 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environments & virtual environments
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# IDE / Editor configuration
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ICAO PDF Documents (ignored due to size & licensing; add PDFs to import_pdfs/)
+*.pdf
+!import_pdfs/.gitkeep
+
+# Index cache / generated embeddings and vector store data
+icao_rag/storage/index_cache/*.json
+icao_rag/storage/index_cache/*.npy
+!icao_rag/storage/index_cache/.gitkeep
+
+# Operating System files
+.DS_Store
+Thumbs.db
