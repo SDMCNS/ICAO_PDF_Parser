@@ -2,7 +2,7 @@
 
 A high-performance Python library, CLI, and REST API to **parse**, **filter**, **chunk**, **embed**, and **search** official International Civil Aviation Organization (ICAO) documentation using modern Information Retrieval (IR) and Retrieval-Augmented Generation (RAG) best practices.
 
-Supported reference document types (when added to `import_pdfs/`):
+(Tested) reference documents (when added to `import_pdfs/`):
 - **ICAO Doc 9562**: *Airport Economics Manual*
 - **ICAO Doc 9750**: *Global Air Navigation Plan for CNS/ATM Systems*
 - **ICAO Annex 2**: *Rules of the Air*
